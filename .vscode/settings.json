@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "**/templates/*.html": "django-html",
+        "**/templates/*": "django-txt",
+        "**/requirements{/**,*}.{txt,in}": "pip-requirements",
+        "*.html": "html",
+        "conio.h": "c",
+        "ncurses.h": "c",
+        "types.h": "c",
+        "curses.h": "c"
+    }
+}
