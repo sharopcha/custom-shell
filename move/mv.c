@@ -9,6 +9,7 @@ int main(int argc, char *argv[])
     int dst; //destination file
     int n;   // tracking variable
     char buf[1];
+    printf(argv[1]);
     if (argc != 3)
     {
         printf("usage ./a.out sourceFileName destinationFileName\n");

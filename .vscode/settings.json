@@ -7,6 +7,7 @@
         "conio.h": "c",
         "ncurses.h": "c",
         "types.h": "c",
-        "curses.h": "c"
+        "curses.h": "c",
+        "dirent.h": "c"
     }
 }
