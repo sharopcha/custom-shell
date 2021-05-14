@@ -149,9 +149,8 @@ void execArgsPiped(char **parsed, char **parsedpipe)
 // Help command builtin
 void openHelp()
 {
-    puts("\n*WELCOME TO MY SHELL HELP*"
-         "\nCopyright @ Suprotik Dey"
-         "\n-Use the shell at your own risk..."
+    puts("\n*WELCOME TO OUR SHELL HELP*"
+         "\nCopyright @ igps_shell"
          "\nList of Commands supported:"
          "\n>cd"
          "\n>ls"
@@ -164,11 +163,7 @@ void openHelp()
          "\n>time"
          "\n>piramide"
          "\n>palindrome"
-         "\n>exit"
-         "\n>clear\tclears current terminal view"
-         "\n>all other general commands available in UNIX shell"
-         "\n>pipe handling"
-         "\n>improper space handling");
+         "\n>exit");
 
     return;
 }
